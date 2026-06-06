@@ -1,8 +1,6 @@
 .portfolio-list {
   display: flex;
   flex-direction: column;
-  padding-left: 16px;
-  padding-right: 16px;
   column-gap: 24px;
   row-gap: 48px;
 }
@@ -72,7 +70,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .portfolio-list {
     flex-wrap: wrap;
     row-gap: 48px;

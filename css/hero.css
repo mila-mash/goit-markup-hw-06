@@ -1,6 +1,7 @@
 .hero {
   background-color: #2e2f42;
-  padding: 188px 141px;
+  /* padding: 188px 141px; */
+  padding: 72px 0;
   background-image:
     linear-gradient(
       180deg,
@@ -69,7 +70,7 @@
   }
 }
 
-@media screen and (min-width: 1440pxpx) {
+@media screen and (min-width: 1158px) {
   .hero .container {
     padding-left: 331px;
     padding-right: 331px;
@@ -77,6 +78,10 @@
 
   .main-title {
     margin-bottom: 48px;
+  }
+
+  .hero {
+    padding: 112px 0px;
   }
 }
 
@@ -89,5 +94,7 @@
         rgba(46, 47, 66, 0.7) 100%
       ),
       url(../images/hero-bg2x.jpg);
+
+    padding: 188px 141px;
   }
 }

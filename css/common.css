@@ -38,7 +38,7 @@ img {
   margin-right: auto;
   padding-left: 16px;
   padding-right: 16px;
-  max-width: 288px;
+  max-width: 320px;
 }
 
 .section {
@@ -112,9 +112,11 @@ a:focus {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .container {
     max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 
   .section {

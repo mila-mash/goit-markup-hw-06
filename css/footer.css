@@ -1,4 +1,4 @@
-footer {
+.footer {
   background: #2e2f42;
   padding: 96px 16px;
 }
@@ -22,6 +22,7 @@ footer {
   text-transform: uppercase;
   display: block;
   margin-bottom: 16px;
+  padding: 96px 0;
 }
 
 .end-web-logo {
@@ -165,6 +166,7 @@ footer {
     align-items: flex-start;
     column-gap: 24px;
     row-gap: 72px;
+    max-width: 1158px;
   }
 
   .footer-list {
@@ -193,7 +195,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .footer {
     padding: 100px 0;
   }

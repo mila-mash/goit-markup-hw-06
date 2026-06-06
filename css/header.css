@@ -22,7 +22,7 @@
   text-transform: uppercase;
 
   display: block;
-  padding: 16px 0 0;
+  padding: 16px 0;
 }
 
 .web-logo {
@@ -73,7 +73,7 @@
     justify-content: flex-start;
     align-items: center;
     gap: 40px;
-    padding-left: 76px;
+    padding-left: 120px;
   }
 
   .nav-item {
@@ -126,7 +126,7 @@
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1158px) {
   .address-list {
     flex-direction: row;
     justify-content: end;
