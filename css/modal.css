@@ -10,9 +10,9 @@
   align-items: center;
   justify-content: center;
 
-  opacity: 0;
+  /* opacity: 0;
   pointer-events: none;
-  visibility: hidden;
+  visibility: hidden; */
 }
 
 .backdrop.is-open {
@@ -24,9 +24,10 @@
 .modal {
   background-color: #fcfcfc;
   max-width: 408px;
-  max-height: 80%;
+  width: 288px;
+  max-height: 90%;
   overflow: auto;
-  padding: 24px;
+  padding: 24px 16px;
   position: relative;
   border-radius: 4px;
   box-shadow:
@@ -94,6 +95,53 @@
 
 .modal-item:last-child {
   margin-bottom: 0;
+}
+
+.modal-label {
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
+.modal-input,
+.modal-area {
+  width: 100%;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 4px;
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  font-size: 12px;
+  line-height: 1.16667;
+  letter-spacing: 0.04em;
+  color: rgba(46, 47, 66, 0.4);
+  background-color: transparent;
+}
+
+.modal-input {
+  padding: 8px 38px;
+  height: 40px;
+}
+
+.modal-area {
+  padding: 8px 16px;
+  font-weight: 400;
+  height: 120px;
+  resize: none;
+}
+
+.modal-area::placeholder {
+  color: rgba(46, 47, 66, 0.4);
+}
+
+.modal-input:hover,
+.modal-input:focus,
+.modal-area:hover,
+.modal-area:focus {
+  outline: none;
+  border-color: #4d5ae5;
 }
 
 .modal-label {
@@ -242,7 +290,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .modal {
+    width: 408px;
+  }
 }
 
-@media screen and (min-width: 1440pxpx) {
+@media screen and (min-width: 1440px) {
 }
