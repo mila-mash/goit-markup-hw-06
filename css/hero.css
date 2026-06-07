@@ -12,7 +12,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1140x;
+  max-width: 1440px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -59,7 +59,7 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    /* padding: 112px 0; */
+    padding: 112px 0;
   }
 
   .hero .container {
