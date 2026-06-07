@@ -12,15 +12,15 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* max-width: 1140x; */
+  max-width: 1140x;
   margin-left: auto;
   margin-right: auto;
 }
 
-.hero .container {
+/* .hero .container {
   margin-left: 52px;
   margin-right: 52px;
-}
+} */
 
 /* h1 */
 .main-title {
@@ -30,7 +30,7 @@
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
-
+  max-width: 216px;
   margin-bottom: 72px;
 }
 
@@ -59,7 +59,7 @@
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding: 112px 0;
+    /* padding: 112px 0; */
   }
 
   .hero .container {
@@ -71,6 +71,7 @@
     font-size: 56px;
     line-height: 1.07143;
     margin-bottom: 36px;
+    max-width: 496px;
   }
 }
 
