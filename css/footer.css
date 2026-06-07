@@ -1,6 +1,6 @@
 .footer {
   background: #2e2f42;
-  padding: 96px 16px;
+  padding: 96px 0;
 }
 
 .footer .container {
@@ -22,7 +22,6 @@
   text-transform: uppercase;
   display: block;
   margin-bottom: 16px;
-  padding: 96px 0;
 }
 
 .end-web-logo {
@@ -166,7 +165,7 @@
     align-items: flex-start;
     column-gap: 24px;
     row-gap: 72px;
-    max-width: 1158px;
+    max-width: 768px;
   }
 
   .footer-list {
@@ -204,6 +203,7 @@
     flex-wrap: nowrap;
     justify-content: space-between;
     align-items: center;
+    max-width: 1158px;
   }
 
   .footer-container:first-child {

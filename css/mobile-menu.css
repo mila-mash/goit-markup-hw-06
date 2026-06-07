@@ -5,13 +5,16 @@
   width: 100%;
   height: 100%;
   background-color: #fff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
 
   opacity: 0;
   pointer-events: none;
   visibility: hidden;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .menu.is-open {
@@ -71,15 +74,23 @@
   flex-direction: column;
   gap: 24px;
   margin-bottom: 48px;
+  font-style: normal;
 }
 
-.menu-address-link {
+.menu-address-mail,
+.menu-address-tel {
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+.menu-address-mail {
+  color: #434455;
+}
+.menu-address-tel {
+  color: #4d5ae5;
 }
 
 .menu-socials {

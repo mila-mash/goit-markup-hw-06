@@ -133,4 +133,14 @@
     align-items: center;
     gap: 40px;
   }
+
+  .nav-list {
+    padding-left: 76px;
+  }
+
+  .address-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
 }
